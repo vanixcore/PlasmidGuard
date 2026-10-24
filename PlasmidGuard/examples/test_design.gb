@@ -1,0 +1,29 @@
+LOCUS       test_plasmid             782 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  PlasmidGuard manual test construct.
+ACCESSION   test_plasmid
+VERSION     test_plasmid
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     promoter        1..29
+                     /label="test promoter"
+     CDS             30..746
+                     /gene="testGFP"
+ORIGIN
+        1 ttgacaatta atcatcggct cgtataatga tggctaaagg tgaagaactg ttcactggtg
+       61 ttgtcccaat tcttgttgaa ttagatggtg atgttaatgg gcacaaattt tctgtcagtg
+      121 gagagggtga aggtgatgct acatacggaa agcttaccct taaatttatt tgcactactg
+      181 gaaaactacc tgttccatgg ccaacacttg tcactacttt cggttatggt gttcaatgct
+      241 ttgcgagata cccagatcat atgaaacagc atgacttttt caagagtgcc atgcccgaag
+      301 gttatgtaca ggaaagaact atatttttca aagatgacgg gaactacaag acacgtgctg
+      361 aagtcaagtt tgaaggtgat acccttgtta atagaatcga gttaaaaggt attgatttta
+      421 aagaagatgg aaacattctt ggacacaaat tggaatacaa ctataactca cacaatgtat
+      481 acatcatggc agacaaacaa aagaatggaa tcaaagttaa cttcaaaatt agacacaaca
+      541 ttgaagatgg aagcgttcaa ctagcagacc attatcaaca aaatactcca attggcgatg
+      601 gccctgtcct tttaccagac aaccattacc tgtccacaca atctgccctt tcgaaagatc
+      661 ccaacgaaaa gagagaccac atggtccttc ttgagtttgt aacagctgct gggattacac
+      721 atggcatgga tgaactatac aaataaggat ccaagcttgc atgcctgcag gtcgactcta
+      781 ga
+//
