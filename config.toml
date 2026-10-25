@@ -1,0 +1,6 @@
+[server]
+maxUploadSize = 25
+
+[browser]
+# No usage statistics sent to Streamlit.
+gatherUsageStats = false
