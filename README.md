@@ -1,9 +1,17 @@
 # PlasmidGuard
 
-Compares a plasmid **design** file with a **sequencing result** and reports every difference.
-For mutations inside annotated coding sequences it flags **frameshifts** and **premature stop codons**.
+**Live demo: https://plasmidguard.streamlit.app/** (use "Try an example", no files needed)
 
-## Quick start
+Checks whether a sequenced plasmid matches the one you designed. It finds every difference and,
+for mutations inside annotated genes, flags **frameshifts** and **premature stop codons**,
+including for genes on the reverse strand.
+
+> **Status: early prototype.** Tested on real plasmid files (Addgene, NCBI) and a real Sanger
+> trace, with mutations introduced in software. **Not yet validated against independently
+> confirmed lab results.** If you have a sequenced plasmid where the answer is already known and
+> are willing to test it, please open an issue or get in touch.
+
+## Run it on your own computer
 
 1. **Unzip the folder first** (do not run it from inside the zip).
 2. Install Python 3.10 or newer if you don't have it: https://www.python.org/downloads/
